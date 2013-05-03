@@ -9,7 +9,7 @@
     },
 
     "scripts": {
-        "pretest": "jshint --config .jshintrc lib test",
+        "pretest": "jshint --config config/jshint.json lib test",
         "test":    "istanbul test ./node_modules/mocha/bin/_mocha --report html --dir build/coverage -- --reporter spec --require test/**/*"
     },
 
@@ -24,7 +24,8 @@
         "sinon-chai": "2.3.x",
         "jshint": "0.9.x",
         "istanbul": "0.1.x",
-        "karma": "0.8.x"
+        "karma": "0.8.x",
+        "closurecompiler":"1.1.x"
     },
 
     "engines": {

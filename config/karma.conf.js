@@ -5,11 +5,11 @@ basePath = '../';
 files = [
   MOCHA,
   MOCHA_ADAPTER,
-  'tests/karma/closure.js',
-  'build/js/closure/closure/goog/base.js',
+  'test/karma/closure.js',
+  'build/closure/closure/goog/base.js',
   
-  { pattern:'build/js/closure/closure/goog/deps.js', watched: false },
-  { pattern:'build/js/closure/**/*.js', included: false, watched: false },
+  { pattern:'build/closure/closure/goog/deps.js', watched: false },
+  { pattern:'build/closure/**/*.js', included: false, watched: false },
 
   { pattern:'node_modules/chai/chai.js', watched: false },
   { pattern:'node_modules/sinon-chai/lib/sinon-chai.js', watched: false },
@@ -18,7 +18,7 @@ files = [
   { pattern:'lib/**/*.js', included: false },
 
   // include any tests
-  'tests/**/*.js'
+  'test/**/*.js'
 ];
 
 // list of files to exclude
