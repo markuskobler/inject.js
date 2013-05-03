@@ -1,7 +1,8 @@
 (function (window) {
+    "use strict";
 
     var karma = window.__karma__,
-        doc = this.document;
+        doc = window.document;
 
     function pathName(url) {
         var basePath = goog.basePath.substring(21);
@@ -39,7 +40,7 @@
         }
     }
 
-    this.CLOSURE_NO_DEPS = true;
-//    this.CLOSURE_IMPORT_SCRIPT = importScript;
+    window.CLOSURE_NO_DEPS = true;
+//    window.CLOSURE_IMPORT_SCRIPT = importScript;
 
-})(window);
+})(window || this);

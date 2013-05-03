@@ -1,7 +1,7 @@
 {
-    "name": "injector",
+    "name": "inject.js",
     "version": "0.1.0",
-    "description":"Dependency Injector for JavaScript optimised for Google Closure",
+    "description":"Dependency Injector for JavaScript, optimised for Google Closure",
 
     "repository": {
         "type": "git",
@@ -9,6 +9,8 @@
     },
 
     "scripts": {
+        "postinstall": "bower install",
+        "postupdate": "bower update",
         "pretest": "jshint --config config/jshint.json lib test",
         "test":    "istanbul test ./node_modules/mocha/bin/_mocha --report html --dir build/coverage -- --reporter spec --require test/**/*"
     },
@@ -25,6 +27,8 @@
         "jshint": "0.9.x",
         "istanbul": "0.1.x",
         "karma": "0.8.x",
+
+        "bower": "0.9.x",
         "closurecompiler":"1.1.x"
     },
 

@@ -16,7 +16,7 @@
         "exist",
         "goog",
 
-        "injector"
+        "inject"
     ],
 
     "devel"     : true,
@@ -31,7 +31,7 @@
     "noarg"     : true,
     "nonew"     : true,
     "regexp"    : true,
-    "strict"    : false,
+    "strict"    : true,
     "undef"     : true,
     "trailing"  : true,
 
