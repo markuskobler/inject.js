@@ -1,0 +1,33 @@
+{
+    "name": "injector",
+    "version": "0.1.0",
+    "description":"Dependency Injector for JavaScript optimised for Google Closure",
+
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:markuskobler/injector.git"
+    },
+
+    "scripts": {
+        "pretest": "jshint --config .jshintrc lib test",
+        "test":    "istanbul test ./node_modules/mocha/bin/_mocha --report html --dir build/coverage -- --reporter spec --require test/**/*"
+    },
+
+    "dependencies": {
+
+    },
+
+    "devDependencies": {
+        "mocha": "1.7.x",
+        "chai": "1.4.x",
+        "sinon": "1.5.x",
+        "sinon-chai": "2.3.x",
+        "jshint": "0.9.x",
+        "istanbul": "0.1.x",
+        "karma": "0.8.x"
+    },
+
+    "engines": {
+        "node": ">= 0.8.0"
+    }
+}

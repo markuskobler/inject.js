@@ -1,0 +1,44 @@
+{
+    "predef": [
+        "define",
+        "require",
+        "exports",
+        "describe",
+        "it",
+        "expects",
+        "before",
+        "beforeEach",
+        "after",
+        "afterEach",
+        "expect",
+        "sinon",
+        "assert",
+        "exist",
+        "goog",
+
+        "injector"
+    ],
+
+    "devel"     : true,
+    "node"      : true,
+    "browser"   : true,
+
+    "bitwise"   : true,
+    "eqeqeq"    : true,
+    "forin"     : true,
+    "immed"     : true,
+    "newcap"    : true,
+    "noarg"     : true,
+    "nonew"     : true,
+    "regexp"    : true,
+    "strict"    : false,
+    "undef"     : true,
+    "trailing"  : true,
+
+    "debug"     : true,
+    "eqnull"    : true,
+    "es5"       : true,
+    "esnext"    : true,
+    "laxcomma"  : true,
+    "sub"       : true
+}
