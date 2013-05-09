@@ -1,4 +1,4 @@
-goog.require('injector.inject');
+goog.require('inject');
 
 describe('App', function() {
   describe('exported symbols', function() {
