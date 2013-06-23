@@ -1,7 +1,7 @@
 {
     "name": "injector",
     "version": "0.1.0",
-    "main":"lib/inject/injector.js",
+    "main":"lib/inject/inject.js",
     "dependencies": {
         "closure": "https://github.com/jarib/google-closure-library.git"
     }
