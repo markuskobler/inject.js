@@ -3,5 +3,9 @@
     "version": "0.1.0",
     "main":"lib/inject/inject.js",
     "dependencies": {
-    }
+    },
+    "ignore":[
+        "config/**",
+        "test/**"
+    ]
 }
